@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #0A0A0A;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+input, textarea, select, button { font-family: inherit; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #111; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+@keyframes bounce {
+  0%, 80%, 100% { transform: scale(0); opacity: 0.3; }
+  40% { transform: scale(1); opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
